@@ -33,6 +33,7 @@ void print_ara()
 }
 
 
+//master pice
 void seive()
 {
 	int i, j, root;
