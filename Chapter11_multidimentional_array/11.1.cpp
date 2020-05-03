@@ -8,7 +8,7 @@ int main(int argc, char const *argv[])
 
 	for (int i = 0; i < 10; i++)
 	{
-		ara[3][i]=(ara[0][i]/.25)+(ara[1][i]/.25)+(ara[2][i]/.50);
+		ara[3][i]=(ara[0][i]/4)+(ara[1][i]/4)+(ara[2][i]/2);
 		printf("%lf\n", ara[3][i]);
 	}
 	return 0;
