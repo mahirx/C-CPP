@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-int main(int argc, char const *argv[])
+int main()
 {
 	int i, j;
 	int table[10][10];
@@ -11,7 +11,7 @@ int main(int argc, char const *argv[])
 	{
 		for (j = 0; j < 10; j++)
 		{
-			table[i][j]=(i+1)*(j+1);		
+			table[i][j]=(i+1)*(j+1);
 		}
 	}
 
