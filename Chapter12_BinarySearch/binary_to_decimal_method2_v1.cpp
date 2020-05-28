@@ -5,22 +5,13 @@
 
 int main(int argc, char const *argv[])
 {
-	int decimal, range, i, number=0, temp;
-	scanf("%d", &decimal);
+	int decimal, r, d, i;
 
+	scanf()
 
-	for(i=0; pow(2, i) <= decimal; i++){
-		range=i;
-	}
-	printf("%d\n", range);
-
-
-	char binary[range+1];
-
-	
-
-
-	printf("%s\n", binary);
-
+	for (i = 0; r != 0 ; i++)
+	 {
+	 	d
+	 } 
 	return 0;
 }
