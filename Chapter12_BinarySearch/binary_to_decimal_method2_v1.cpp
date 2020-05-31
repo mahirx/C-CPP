@@ -7,11 +7,12 @@ int main(int argc, char const *argv[])
 {
 	int decimal, r, d, i;
 
-	scanf()
+	scanf("%d", &decimal);
 
-	for (i = 0; r != 0 ; i++)
-	 {
-	 	d
-	 } 
+
+	for (i = 0; i < d!=0; i++)
+	{
+		
+	}
 	return 0;
 }
