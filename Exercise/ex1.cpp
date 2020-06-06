@@ -3,25 +3,26 @@
 
 
 int main(){
-	int q,i, j;
-	scanf("%d", &q);
+	int total_line, line, highest_star, space, star;
+	scanf("%d", &highest_star);
 
 
-	for (i = q; i >= 2; i--)
+	for (line = highest_star ; line >= 2; line--)
 	{
-		for ( j = 1; j <=i ; j++)
+		for (star = 1; star <= line ; star++)
 		{
-			printf("c");
+			
+			printf("+");
 		}
 		printf("\n");
 	}
 
 
-	for (i = 1; i <= q; i++)
+	for (line = 1; line <= highest_star; line++)
 	{
-		for ( j = 1; j <=i ; j++)
+		for (star = 1; star <= line ; star++)
 		{
-			printf("c");
+			printf("+");
 		}
 		printf("\n");
 	}

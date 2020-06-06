@@ -7,13 +7,13 @@ int main(){
 	scanf("%d", &highest_star);
 
 
-	for (line = highest_star ; line >= 2; line = (line - 2))
+	for (line = highest_star ; line >= 2; line--)
 	{
-		for (space = 1; space <= (highest_star-line)/2; space++)
+		for (space = 1; space <= (highest_star-line); space++)
 			{
 				printf(" ");
 			}
-            
+
 
 		for (star = 1; star <= line ; star++)
 		{
@@ -23,9 +23,9 @@ int main(){
 	}
 
 
-	for (line = 1; line <= highest_star; line = (line + 2))
+	for (line = 1; line <= highest_star; line++)
 	{
-		for (space = 1; space <= (highest_star-line)/2; space++)
+		for (space = 1; space <= (highest_star-line); space++)
 			{
 				printf(" ");
 			}
