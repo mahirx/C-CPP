@@ -48,7 +48,7 @@ int main(int argc, char const *argv[])
 
 		if (is_prime(n) == 1)
 		{
-			printf("(%d^%d)\t", n, power);
+			printf("(%d^%d)\n", n, power);
 		}
 	}
 
