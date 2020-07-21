@@ -5,7 +5,7 @@ int main(){
   int ara1[5]={1,4,6,9,8};
   int ara2[5];
   int i, temp = 0, j;
- 
+  int index;
 
   for (i  = 0; i < 5; i++) {
     printf("%d\n",ara1[i] );
@@ -18,9 +18,11 @@ int main(){
   			if (temp < ara1[j])
   			{
   				temp = ara1[j];
+  				index = j;
   			}
   		}
   		ara2[i] = temp;
+  		ara1[j] = 0;
   		temp = 0;
   	}
 
