@@ -4,16 +4,29 @@
 int main()
 {
 	int x, y;
-	int i, j;
+	int i, j, n;
 	char c;
-	int grid[11][11]
+	int grid[11][11];
 
 	for (i = 0; i < 11; i++)
 	{
-		for (j = 0; i <11; j++)
+		for (j = 0; j <11; j++)
 		{
 			grid[i][j] = 1;
 		}
+	}
+
+	printf("Please enter the number of blocled cells: ");
+	scanf("%d", &n);
+
+
+	printf("Now enter the cells: ");
+
+
+	for (i = 1; i <= n; i++)
+	{
+		scanf("%d %d", &x, &y);
+		grid[x][y] = 0;
 	}
 
 
@@ -52,8 +65,16 @@ int main()
 	}
 
 
-	printf("Latest position:	");
-	printf("%d, %d", x, y);
+	if (grid[x][y] == 1)
+	{
+		printf("Latest position:	");
+		printf("%d, %d", x, y);
+	}
+
+
+	else{
+		printf("%d, %d is not valid.", x, y);
+	}
 
 
 
